@@ -13,9 +13,25 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      // 이 부분을 추가해 준다. repo: '' 뒤에 쉼표를 꼭 추가해야 한다. 앞으로 모든 설정을 넣을 때는 쉼표를 빼면 안된다.
+      loadSidebar: true,
+      subMaxLevel: 4,
+      search: 'auto',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '검색',
+        noData: 'no data',
+        depth: 6,
+        hideOtherSidebarContent: false,
+      },
+      disqus: 'woorimsong',
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- search 플러그인 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
 </body>
 </html>
