@@ -1,5 +1,5 @@
 * [Home](/)
 
-* Post
+* VS Code
 
-* - [- 첫 글](docs/2020/first.md)
+* - [- Extension](docs/2020/vscode/extension.md)
