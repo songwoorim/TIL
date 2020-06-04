@@ -22,7 +22,7 @@ Vue.js를 사용하는 CDN 방식과 CLI방식 2가지 있습니다.
 
 1. 아래 npm 명령어를 통해 설치
 
-```javascript
+```
 $ npm install vue
 npm WARN saveError ENOENT: no such file or directory, open '/Users/caley/package.json'
 npm notice created a lockfile as package-lock.json. You should commit this file.
@@ -39,7 +39,7 @@ found 0 vulnerabilities
 
 2. 설치 완료후 공식 CLI 설치
 
-```javascript
+```
 $ npm install --global vue-cli
 npm WARN deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
 /usr/local/bin/vue -> /usr/local/lib/node_modules/vue-cli/bin/vue
@@ -51,7 +51,7 @@ added 237 packages from 206 contributors in 9.236s
 
 3. 공식 CLI 설치 후 vue 명령어 실행
 
-```javascript
+```
 $ vue
 Usage: vue  [options]
 
@@ -69,7 +69,7 @@ Commands:
 
 4. 옵션에서 init를 통해 새로운 프로젝트를 생성할 수 있습니다. init옵션은 다음과 같습니다.
 
-```javascript
+```
 $ vue init
 Usage: vue-init  [project-name]
 
@@ -88,7 +88,7 @@ Options:
 
 5. 아래 예제 처럼 본인의 프로젝트를 만들어 볼 수 있습니다. 생성시 Y/N 선택지는 나중에 변경이 가능하기 때문에 PASS!
 
-```javascript
+```
 $ vue init webpack my-project // my-project 부분은 본인 마음대로 이름 지정 가능!
 
 ? Project name my-project
@@ -121,7 +121,7 @@ Documentation can be found at https://vuejs-templates.github.io/webpack
 
 6. 아래 명령어를 통해 로컬에서 프로젝트를 확인 할수 있습니다.
 
-```javascript
+```
 $ cd my-project/;npm run dev // 2개중 선택
 
 > my-project@1.0.0 dev /Users/caley/work/my-project
@@ -134,7 +134,7 @@ $ cd my-project/;npm run dev // 2개중 선택
  I  Your application is running here: https://localhost:8080
 ```
 
-7. 브라우저에 https://localhost:8080 입력하면!
+1. 브라우저에 https://localhost:8080 입력하면!
 
 ![vueRun](img/img_vue_run.jpg)
 
@@ -143,6 +143,6 @@ $ cd my-project/;npm run dev // 2개중 선택
 https://jybaek.tistory.com/765<br>
 https://kr.vuejs.org/v2/guide/installation.html<br>
 
-감사합니다 😀
+소중한 자료 감사합니다 😀
 ***
 
