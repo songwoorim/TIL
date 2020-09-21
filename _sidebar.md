@@ -14,3 +14,4 @@
 * 📂 ETC
 
 * - [- Markdown 작성법](docs/2020/ETC/markdown.md)
+* - [- 용어 정리](docs/2020/ETC/dictionary.md)
