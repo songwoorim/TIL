@@ -40,7 +40,7 @@ found 0 vulnerabilities
 2. 설치 완료후 공식 CLI 설치
 
 ```
-$ npm install --global vue-cli
+$ npm install --global vue-cli or npm install -g @vue/cli
 npm WARN deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
 /usr/local/bin/vue -> /usr/local/lib/node_modules/vue-cli/bin/vue
 /usr/local/bin/vue-init -> /usr/local/lib/node_modules/vue-cli/bin/vue-init
